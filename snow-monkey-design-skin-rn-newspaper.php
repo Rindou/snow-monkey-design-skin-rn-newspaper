@@ -7,7 +7,7 @@
  *
  * @package snow-monkey-design-skin-rn-newspaper
  * @author 古川恵子
- * @license GPL-2.0+
+ * @license GPL-3.0+
  */
 
 use Inc2734\WP_GitHub_Plugin_Updater\GitHub_Plugin_Updater;
