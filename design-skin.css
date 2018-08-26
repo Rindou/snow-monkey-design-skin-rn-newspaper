@@ -460,7 +460,7 @@ h6,
 	background-color: #fff;
 }
 
-.c-entry__header {
+.single .c-entry__header {
 	border-bottom: 1px solid #333;
 }
 
