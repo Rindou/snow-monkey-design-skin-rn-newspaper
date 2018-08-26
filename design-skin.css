@@ -460,21 +460,12 @@ h6,
 	background-color: #fff;
 }
 
-.single .c-entry__header {
+.c-entry__header {
 	border-bottom: 1px solid #333;
 }
 
 .archive .c-entry__header {
 	text-align: center;
-}
-
-.archive .c-entry__header:after {
-	margin: .46739rem auto 0;
-	content: "";
-	display: block;
-	width: 2.4rem;
-	height: 1px;
-	background-color: #ddd;
 }
 
 .single .c-entry__header {
@@ -526,13 +517,6 @@ h6,
 .c-entry__content>div.c-google-adsense {
 	margin-top: 1.86957rem;
 }
-
-@media (min-width: 64em) {
-	.archive .c-entry__header:after {
-		width: 2.8rem;
-	}
-}
-
 
 /**
  * .wpco
