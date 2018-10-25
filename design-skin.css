@@ -647,6 +647,10 @@ h6,
 }
 
 
+.c-prev-next-nav__item img {
+	display: none;
+}
+
 /**
  * .p-comments
  */
@@ -857,8 +861,4 @@ h6,
 :not(.l-footer-widget-area__item)>.widget_inc2734_wp_awesome_widgets_pickup_slider .c-widget__title {
 	margin-right: 0;
 	margin-left: 0;
-}
-
-.l-sidebar-widget-area .textwidget>ins {
-	margin-top: 0;
 }
