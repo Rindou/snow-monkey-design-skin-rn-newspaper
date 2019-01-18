@@ -2,7 +2,7 @@
 /**
  * Plugin name: リンドウ・ニュースペーパー
  * Description: 竜胆（りんどう）Webデザインが作成したSnow Monkey用のデザインスキン
- * Version: 0.1.1
+ * Version: 0.1.2
  * Text Domain: snow-monkey-design-skin-rn-newspaper
  *
  * @package snow-monkey-design-skin-rn-newspaper
@@ -23,8 +23,14 @@ add_action( 'plugins_loaded', function() {
 	} );
 } );
 
-add_action( 'after_setup_theme', function() {
-	if ( class_exists( '\Snow_Monkey\app\model\Design_Skin' ) ) {
-		new \Snow_Monkey\app\model\Design_Skin( __FILE__ );
+add_action(
+	'after_setup_theme',
+	function() {
+		if ( class_exists( '\Snow_Monkey\app\model\Design_Skin' ) ) {
+			new \Snow_Monkey\app\model\Design_Skin( __FILE__ );
+		}
+		if ( class_exists( '\Framework\Model\Design_Skin' ) ) {
+			new \Framework\Model\Design_Skin( __FILE__ );
+		}
 	}
-} );
+);
